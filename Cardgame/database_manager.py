@@ -8,7 +8,7 @@ class CardGameDB:
         # 1. Pfad-Korrektur mit os.path
         if db_path is None:
             base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-            db_path = os.path.join(base_dir, 'databases', 'cardgame.db')
+            db_path = os.path.join(base_dir, 'databases', 'old_cardgame.db')
 
         # 2. Verzeichnis automatisch erstellen
         os.makedirs(os.path.dirname(db_path), exist_ok=True)

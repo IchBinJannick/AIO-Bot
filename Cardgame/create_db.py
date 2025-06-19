@@ -77,4 +77,4 @@ cursor.execute('''
 conn.commit()
 conn.close()
 
-print("Datenbank 'kartenspiel.db' und alle Tabellen erfolgreich erstellt/aktualisiert.")
+print("Datenbank 'cardgame.db' und alle Tabellen erfolgreich erstellt/aktualisiert.")

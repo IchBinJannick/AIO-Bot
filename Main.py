@@ -2,7 +2,6 @@ import discord
 from discord.ext import commands
 import os
 from dotenv import load_dotenv
-import datetime
 import re
 from Cardgame import cardgame_manager as cm
 from Cardgame import database_manager as db_manager
