@@ -405,7 +405,7 @@ class CardGameDB:
         return player_names
 
     #databse controls
-    def backup_database(self, backup_dir='..\\backups\\'):
+    def backup_database(self, backup_dir='..\\databases\\backups\\'):
         """
         Creates a backup of the database.
         :param backup_dir: directory to save the backup file
